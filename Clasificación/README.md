@@ -47,6 +47,9 @@ Este notebook contiene diferentes modelos de CNN's, la creación de conjuntos de
 
 ### Versión de Python
 Este proyecto ha sido probado con **Python 3.8.0**. Se recomienda usar esta versión para evitar posibles problemas de compatibilidad con las librerías.
+Este proyecto realizó el entrenamiento con GPU para los modelos que lo permitían y utilizó las siguientes versiones de CUDA y cuDNN:
+- **CUDA**: 11.8
+- **cuDNN**: 8.6.0 (compatible con CUDA 11.8)
 
 ### Dependencias
 Para instalar las dependencias necesarias, puedes usar el archivo `requirements.txt` con el siguiente comando:
