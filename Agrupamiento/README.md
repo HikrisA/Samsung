@@ -2,61 +2,40 @@
 
 En este apartado se encuentran los modelos de agrupamiento que se utilizaron para trabajar con el dataset 
 
+## Objetivo
+
+Agrupar a los pacientes en 3 clústeres para poder identificar de manera precisa si un paicente tiene un nivel de cáncer bajo, medio o alto.
+
+## Dataset utilizado 
+
+[Lung Cancer Prediction](https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link/data)
+
 ## Contenido del notebook
 
 En el notebook se encuentran
 
 - Agrupamiento de datos con k-means
+  
 - Reducción de dimensionalidad con PCA
+
 - Agrupamiento de datos con DBSCAN
-- Evaluación de ambos modelos de agrupamiento
 
-### Descripción:
-- **Algoritmo**: *Support Vector Classifier*.
-- **Entrada**: Imágenes histopatológicas de tumores de cáncer de pulmón.
-- **Salida**: Clasificación del tipo de cáncer de pulmón.
+-  Evaluación de ambos modelos de agrupamiento
 
-#### Instrucciones:
-1. Reemplazar en la segunda celda de código la dirección donde se localizan las 3 carpetas con imágenes.
-2. Entrenar el modelo y posteriormente si es necesario cambiar parámetros del mejor modelo.
-3. Evaluar el modelo.
+### Parámetros modificables 
 
-### Notebook_RL_XGBClassifier.jpynb
-Este notebook contiene los modelos de regresión logística y *XGBClassifier*, la creación de conjuntos de entrenamiento y validación, su entrenamiento y evaluación.
+Como se menciona en el objetivo, la intención de tener 3 clústeres es agrupar a los pacientes por el nivel de enfermedad que tengan, debido a esto, se buscaron los parámetros que nos permitieran agrupar los datos en 3 Clústeres para el método de DBSCAN. Por  esta razón, utilizar un número distinto para cualquiera de los modelos ocasionaría que la interpretación fuera compleja o que no tenga sentido. 
 
-#### Descripción:
-- **Algoritmos**: Regresión Logística y *XGBClassifier*.
-- **Entrada**: Imágenes histopatológicas de tumores de cáncer de pulmón.
-- **Salida**: Clasificación del tipo de cáncer de pulmón.
+## Versión de las librerías utilizadas
 
-#### Instrucciones:
-1. Reemplazar en la segunda celda de código la dirección donde se localizan las 3 carpetas con imágenes.
-2. Entrenar los modelos y posteriormente si es necesario cambiar parámetros del mejor modelo.
-3. Evaluar los modelos.
-
-### Notebook_redes_neuronales_clasificación.jpynb
-Este notebook contiene diferentes modelos de CNN's, la creación de conjuntos de entrenamiento y validación, su entrenamiento y evaluación.
-
-#### Descripción:
-- **Algoritmos**: Modelos de CNN's con ténicas de *Transfer Learning*, *Fine Tuning* y un modelo propuesto.
-- **Entrada**: Imágenes histopatológicas de tumores de cáncer de pulmón.
-- **Salida**: Clasificación del tipo de cáncer de pulmón.
-
-#### Instrucciones:
-1. Reemplazar en la segunda celda de código la dirección donde se localizan las 3 carpetas con imágenes.
-2. Entrenar los modelos, se debe considerar que existe una variable única *modelo* para evitar saturar la memoria, es decir, solo se puede tener un modelo en memoria.
-3. Evaluar los modelos.
-
-## Requisitos del Proyecto
-
-### Versión de Python
-Este proyecto ha sido probado con **Python 3.8.0**. Se recomienda usar esta versión para evitar posibles problemas de compatibilidad con las librerías.
-Este proyecto realizó el entrenamiento con GPU para los modelos que lo permitían y utilizó las siguientes versiones de CUDA y cuDNN:
-- **CUDA**: 11.8
-- **cuDNN**: 8.6.0 (compatible con CUDA 11.8)
-
-### Dependencias
-Para instalar las dependencias necesarias, puedes usar el archivo `requirements.txt` con el siguiente comando:
-
-```bash
-pip install -r requirements.txt
+- Pandas versión: 2.2.2
+	
+- NumPy versión: 2.0.2
+	
+- Seaborn versión: 0.13.2
+	
+- Matplotlib versión: 3.10.0
+	
+- Sklearn versión: 1.6.1
+	
+- SciPy versión: 1.14.1
