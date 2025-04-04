@@ -1,0 +1,152 @@
+% Introducción
+ % \chapter{Introducción}
+El presente proyecto se desarrolla como parte del curso de \textbf{Samsung Innovation Campus} sobre \textbf{Inteligencia Artificial y Liderazgo}. El objetivo es aplicar los conocimientos adquiridos en el diseño e implementación de modelos de IA en una problemática específica, generando información de utilidad y explorando la capacidad de la inteligencia artificial para resolver problemas reales o crear soluciones innovadoras.
+
+La \textbf{temática elegida} fue el cáncer de pulmón, una de las principales causas de muerte en el mundo (\cite{WHO2025}). Su diagnóstico temprano es fundamental, ya que permite un tratamiento más efectivo y reduce los costos médicos al evitar intervenciones complejas en etapas avanzadas. Sin embargo, la detección temprana presenta desafíos significativos, como la falta de acceso a especialistas en algunas regiones y la complejidad de interpretar imágenes médicas \parencite{OMS2017diagnosis}.
+
+% Síntomas
+
+Según \textcite{MNT2025}, el cáncer de pulmón puede causar varios síntomas que pueden indicar que existe un problema en los pulmones.
+Entre los síntomas más comunes se encuentran los siguientes:
+
+\begin{itemize}
+    \item Tos persistente
+    \item Dolor torácico
+    \item Disnea
+    \item Tos con sangre (hemoptisis)
+    \item Cansancio
+    \item Pérdida de peso inexplicada
+    \item Infecciones pulmonares recurrentes
+\end{itemize}
+
+% Pronóstico
+
+El pronóstico del cáncer de pulmón depende de múltiples factores como el tipo de cáncer, el estadio en el momento del diagnóstico, la edad y salud general del paciente. Según datos de la Sociedad Americana Contra el Cáncer\parencite{ACS2025}, la tasa de supervivencia a 5 años varía significativamente dependiendo del tipo de cáncer y de la etapa en la que se diagnostique, siendo mayor cuando se detecta en etapas tempranas.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Etapa & CPCNP & CPCP \\
+\hline
+%\rowcolor[HTML]{FFD700}   % Color de fondo alternado
+Localizado(aún en la ubicación original) & 63 por ciento & 27 por ciento \\
+\hline
+Regional(Se ha extendido a zonas cercanas)& 35 por ciento & 16 por ciento \\
+\hline
+%\rowcolor[HTML]{D3D3D3 }  % Color de fondo alternado
+Distante o metastásica(Se ha diseminado por todo el cuerpo)& 7 por ciento & 3 por ciento \\
+\hline
+General & 25 por ciento & 7 por ciento \\
+\hline
+\end{tabular}
+\caption{Supervivencia según etapa y tipo de cáncer de pulmón.}
+\end{table}
+
+% Diagnóstico
+
+El diagnóstico del cáncer de pulmón se basa en una combinación de estudios que incluyen exploraciones físicas, imágenes médicas (radiografías, tomografías computarizadas y resonancias magnéticas), broncoscopias, biopsias y pruebas moleculares para identificar mutaciones genéticas específicas. Estos procedimientos permiten determinar la etapa del cáncer y guiar el tratamiento.
+
+% Problemática
+\subsection{Problematica}
+El cáncer de pulmón es la principal causa de muertes relacionadas con el cáncer a nivel mundial, siendo responsable de aproximadamente el 85\% de los casos debido al tabaquismo\parencite{WHO2025}. Este cáncer se diagnostica frecuentemente en etapas avanzadas, lo que limita las opciones de tratamiento y reduce las probabilidades de supervivencia.
+
+Además, la detección oportuna se ve obstaculizada por la falta de acceso a tecnologías avanzadas de diagnóstico, la carencia de especialistas en áreas rurales y la complejidad de interpretar imágenes médicas de manera precisa. Esto resalta la necesidad de desarrollar herramientas que faciliten el diagnóstico temprano y preciso, disminuyendo la mortalidad asociada al cáncer de pulmón\parencite{mayoclinic_lung_cancer}.
+
+Los tipos más comunes de cáncer de pulmón son el carcinoma no microcrítico (NSCLC) y el carcinoma microcrítico (SCLC). El NSCLC es más común y crece lentamente, mientras que el SCLC es menos común pero de crecimiento rápido\parencite{WHO2025}.
+
+% Datos Mundiales 
+\subsection{Datos a Nivel Mundial}
+Según la Sociedad Americana Contra el Cáncer\parencite{cancer_american}, para el año 2025 se estiman los siguientes datos en Estados Unidos:
+\begin{itemize}
+    \item 226,650 nuevos casos de cáncer de pulmón.
+    \item 124,730 muertes por cáncer de pulmón.
+\end{itemize}
+A nivel mundial, el cáncer de pulmón representa el 12.4\% de todos los diagnósticos de cáncer, con aproximadamente 2.21 millones de casos nuevos diagnosticados en 2022. Además, es la principal causa de muerte por cáncer, responsable del 18.7\% de las muertes por cáncer, con alrededor de 1.8 millones de muertes anuales. Este cáncer afecta principalmente a personas mayores de 65 años y se asocia principalmente con factores de riesgo como el tabaquismo, que es responsable del 85\% de los casos, así como la exposición a sustancias tóxicas y la contaminación ambiental \parencite{anticancerlifestyle,cancerorg,who}
+%Datos en México
+\subsection{Datos en México}
+En México, el cáncer de pulmón es la causa más letal entre los tipos de cáncer, con más de 8,000 muertes al año (\cite{INCan2025}). En 2018 se reportaron más de 9,000 nuevos casos, de los cuales el 85\% estaban relacionados con el tabaquismo. A pesar de los esfuerzos por mejorar el diagnóstico, la detección en etapas avanzadas sigue siendo un problema.
+
+% Justificación
+\subsection{Justificación}
+Este proyecto se desarrolla como parte del curso de Samsung Innovation Campus sobre Inteligencia Artificial y Liderazgo. Se busca aplicar los conocimientos adquiridos en el diseño e implementación de modelos de IA en una problemática específica que sea capaz de generar información de utilidad.
+
+A través de este trabajo, se busca aplicar conceptos teóricos y prácticos aprendidos durante el curso, explorando la capacidad de los modelos de IA para resolver problemas reales o crear soluciones innovadoras.
+
+La selección de la temática fue completamente libre, el tema que decidimos a tratar fue cáncer de pulmón, debido a que es una de las principales causas de muerte en el mundo, con una alta tasa de mortalidad y su detección temprana podría salvar miles de vidas al permitir tratamientos más efectivos y a su vez reducir los costos de tratamiento, esto contribuiría a reducir la mortalidad asociada a la enfermedad y a optimizar los recursos médicos, ofreciendo una herramienta accesible y de gran impacto social.
+
+Este proyecto no solo permitirá aplicar conocimientos técnicos, sino que también representa una oportunidad para explorar el impacto positivo de la IA en el campo de la salud, alineándose con los objetivos del Samsung Innovation Campus de fomentar el desarrollo de habilidades tecnológicas con un enfoque práctico y transformador.\\
+
+% Objetivos
+
+\subsection{Objetivo General}
+Desarrollar un modelo de inteligencia artificial capaz de diagnosticar el cáncer de pulmón de manera temprana y precisa, contribuyendo a reducir la tasa de mortalidad y optimizando el tratamiento médico.\\
+\subsection{Objetivos Específicos}
+\begin{itemize}
+    \item Desarrollar un modelo de IA capaz de detectar el cáncer de pulmón en etapas tempranas, facilitando el diagnóstico oportuno y mejorando las probabilidades de tratamiento efectivo.
+    \item Búsqueda de bases de datos open source.
+    \item Análisis sistemático de literatura 
+    \item Desarrollar un proceso estandarizado para la extracción y procesamiento de datos relevantes de las bases de datos seleccionadas.
+    \item  Aplicar conceptos teóricos y prácticos aprendidos durante el curso, explorando la capacidad de los modelos de IA.
+    \item Identificar patrones complejos y sutiles en imágenes médicas mediante técnicas avanzadas de procesamiento de imágenes.
+\end{itemize}
+
+% Revision de literatura
+
+\subsection{Revisión de Literatura: Aplicaciones de la Inteligencia Artificial en la Predicción y Diagnóstico del Cáncer de Pulmón}
+La inteligencia artificial (IA) ha emergido como una herramienta revolucionaria en el campo de la salud, permitiendo diagnósticos más precisos, pronósticos personalizados y tratamientos optimizados para diversas enfermedades, incluido el cáncer de pulmón. A continuación, se presentan algunas de las aplicaciones más destacadas de la IA en el manejo del cáncer de pulmón:
+
+\begin{itemize}
+    \item \textbf{Redes Neuronales Convolucionales (CNNs):}En el estudio de Hatuwal y Thapa (2020) titulado "Lung Cancer Detection Using Convolutional Neural Network on Histopathological Images", publicado en el International Journal of Computer Trends and Technology\parencite{CNN1}, se utilizó una red neuronal convolucional (CNN) para detectar el cáncer de pulmón a partir de imágenes histopatológicas. Este tipo de imágenes son esenciales en el diagnóstico del cáncer, ya que proporcionan detalles a nivel celular sobre los tejidos afectados, se pueden ver los resultados en la sección conclusión.
+
+    El articulo "Deep Learning for Computer Vision: A Brief Review" proporciona una revisión general sobre cómo el aprendizaje profundo (Deep Learning) ha revolucionado el campo de la visión por computadora (Computer Vision). En particular, cubre los avances en redes neuronales convolucionales (CNNs) y otras arquitecturas de redes profundas que se han aplicado exitosamente en tareas como clasificación de imágenes, detección de objetos, y segmentación de imágenes, entre otras, los resultados se pueden observar en la conclusión \parencite{CNN2}.
+    
+    \item\textbf{XGBClassifier}El artículo "Lung and colon cancer classification using medical imaging: a feature engineering approach" ,(2022) presenta un sistema asistido por computadora para clasificar de manera precisa tejidos de cáncer de colon y pulmón utilizando imágenes histopatológicas. El estudio aplica técnicas de aprendizaje automático y procesamiento de imágenes, utilizando modelos como XGBoost \parencite{modelo_XGBClassifier}, se pueden ver los resultados del estudio en la sección conclusión.
+
+
+\end{itemize}
+
+Una de las aplicaciones más innovadoras de la IA es el análisis histopatológico de imágenes de biopsias teñidas con hematoxilina y eosina (H\&E). Esta técnica ha permitido a los sistemas de IA identificar y cuantificar patrones complejos que serían difíciles de detectar manualmente. Un estudio publicado en \textit{Nature Communications} presentó \textbf{SEQUOIA}, una herramienta de IA capaz de predecir la actividad de miles de genes en células tumorales utilizando solo imágenes de biopsias teñidas con H\&E. Los resultados mostraron una correlación superior al 80\% entre las predicciones de la IA y los datos reales de actividad genética en tipos específicos de cáncer \parencite{labmedica2025}.
+
+El análisis histopatológico automatizado no solo permite detectar células tumorales, sino que también cuantifica la densidad celular y calcula índices de proliferación, lo que facilita la estratificación de pacientes según el riesgo y la personalización de tratamientos oncológicos. Esta tecnología puede clasificar imágenes con una precisión sorprendente, lo que agiliza la toma de decisiones clínicas y reduce el tiempo diagnóstico \parencite{roche2025}.
+
+Además, el enfoque interdisciplinario de la IA y las biopsias digitales ha abierto nuevas oportunidades para la investigación clínica, permitiendo explorar correlaciones entre patrones histológicos y resultados clínicos. Esto no solo mejora el diagnóstico y el pronóstico del cáncer de pulmón, sino que también proporciona un marco más robusto para desarrollar nuevas terapias dirigidas y medicina personalizada \parencite{labmedica2025}.
+
+En resumen, la integración de la inteligencia artificial en el diagnóstico y tratamiento del cáncer de pulmón ha permitido avances significativos en la detección temprana, el pronóstico preciso y la planificación terapéutica personalizada. Estos enfoques innovadores continúan evolucionando, prometiendo un futuro en el que la IA desempeñe un papel cada vez más crucial en la lucha contra el cáncer de pulmón.
+
+\subsection{Entrevista con el Dr. Alberto Daniel Saucedo Campos  - ISSTE}
+
+Se realizó una entrevista con el Dr. Alberto Daniel Saucedo Campos, especialista en oncología del ISSSTE, para conocer su perspectiva sobre el diagnóstico y seguimiento de cancer de pulmón mediante herramientas de inteligencia artificial con el objetivo de conocer su perspectiva sobre la detección temprana de neoplasias mediante el uso de modelos basados en inteligencia artificial.
+
+\textbf{Preguntas y respuestas:}
+\begin{itemize}
+\item \textbf{¿Cuáles son las principales dificultades para diagnosticar cancer de pulmón?}
+\textit{El problema del cáncer de pulmón es que en sus etapas iniciales no da síntomas, no duele, no provoca sangrados a veces puede provocar una tos muy leve que se puede confundir con una alergia, una gripa, infortunadamente el cáncer de pulmón hasta que llega a niveles de invasión del bronquio más intenso es cuando se comienza con la disnea y mínimo puede que ya este en la etapa 3. Entonces ese es el problema principalmente, que las neoplasias son muy silenciosas}
+\item\textbf{¿Qué tipo de errores diagnósticos son más comunes en la práctica clínica? }
+\textit{El cáncer es una enfermedad muy catastrófica, si vemos la cantidad de diabéticos, de hipertensos que tenemos vs los que tienen cáncer, pues la proporción que tenemos es de 30 a 1, por cada 30 diabéticos va a haber uno con cáncer, entonces infortunadamente el clínico no piensa de primera intención en cáncer, hasta que les hacen la placa, y típicamente cuando hacen la placa encuentran una cosa que se llama nódulo solitario, es cuando comienzan a sospechar de que puede ser una neoplasia. Actualmente lo que se está haciendo es buscar marcadores moleculares en sangre cuando haya la sospecha, y pues ahí en lo que se enfoca principalmente es en la historia clínica, si el paciente es fumador, si está expuesto a biomasas, es decir, que tenga contacto con anafres, con polvos intensos, humos, ya que es importante en la historia clinica.}
+\item\textbf{¿Qué papel juega el médico de primer contacto en el diagnóstico inicial?}
+\textit{El médico de primer contacto juega un papel importante ya que debe realizar un diagnóstico preliminar basado en los síntomas del paciente y muchas veces no tienen la preparación para sospecharlo y cuando lo sospechan no saben qué buscar.}
+\item \textbf{¿Cómo podría un sistema predictivo mejorar el diagnóstico?}
+\textit{Un modelo de predicción con inteligencia artificial puede identificar factores de riesgo y calcular la probabilidad de enfermedad antes de que los síntomas se presenten, permitiendo un seguimiento médico más eficiente.}
+\item \textbf{¿Cómo ve el uso de modelos predictivos para seguimiento de pacientes?}
+\textit{Podrían reducir costos, optimizar recursos y permitir un monitoreo constante, especialmente en pacientes de alto riesgo.}
+\item \textbf{¿Qué aspectos clave deben considerarse al implementar un sistema de predicción de enfermedades?}
+\textit{La precisión del modelo, la accesibilidad y el acompañamiento médico para interpretar los resultados.}
+\end{itemize}
+
+
+En la entrevista, se discutieron las principales dificultades para diagnosticar el cáncer de pulmón, enfatizando que la enfermedad suele ser asintomática en etapas tempranas, lo que dificulta una detección oportuna. Frecuentemente, los síntomas iniciales son leves y se confunden con afecciones menores, lo que retrasa el diagnóstico hasta etapas avanzadas.
+
+El doctor destacó que en la práctica clínica, el diagnóstico temprano del cáncer de pulmón es complejo debido a que los médicos de primer contacto no suelen considerarlo inicialmente. Este error diagnóstico es común, ya que se priorizan enfermedades más frecuentes como la diabetes o la hipertensión. Por lo general, el cáncer de pulmón solo se sospecha tras realizar una radiografía que revela un nódulo solitario. En respuesta a esta problemática, se mencionó que actualmente se buscan marcadores moleculares en sangre para una detección más precisa cuando hay sospechas fundadas, además de realizar una historia clínica exhaustiva enfocada en factores de riesgo como el tabaquismo y la exposición a biomasas y polvos intensos.
+
+Respecto al papel del médico de primer contacto, el doctor señaló que su intervención es fundamental para un diagnóstico temprano, aunque la falta de preparación específica limita su capacidad de identificar la enfermedad.
+
+Finalmente, el doctor expresó que un modelo de predicción basado en inteligencia artificial (IA) podría transformar el diagnóstico y seguimiento de pacientes con cáncer de pulmón al calcular el riesgo antes de la aparición de síntomas. Este enfoque permitiría optimizar recursos, reducir costos y ofrecer un monitoreo constante a pacientes de alto riesgo. No obstante, enfatizó que la precisión del modelo, la accesibilidad y el acompañamiento médico adecuado son aspectos críticos para la implementación exitosa de esta tecnología
+
+
+
+\newpage
+
+
+
+\newpage
