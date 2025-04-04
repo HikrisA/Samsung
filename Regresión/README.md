@@ -6,6 +6,10 @@ Este proyecto forma parte del programa **Samsung Innovation Campus 2024** y tien
 
 Analizar la evolución histórica de las muertes por cáncer de pulmón en México desde 1990 hasta 2016, y predecir el número de muertes hasta el año 2040 mediante modelos supervisados. Se pretende generar un modelo confiable que pueda ser útil para instituciones de salud en la planificación de recursos y estrategias de prevención.
 
+## Dataset utilizado
+
+[Cancer Deaths by Country and Type (1990-2016).](https://www.kaggle.com/datasets/antimoni/cancer-deaths-by-country-and-type-1990-2016)
+
 ## Modelos Implementados
 
 ### 1. Regresión Lineal
