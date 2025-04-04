@@ -45,7 +45,7 @@ El modelo LSTM captura dinámicas más complejas y sugiere una tendencia ligeram
 
 Ambos modelos ofrecen resultados plausibles y cercanos a cifras reales reportadas, lo que valida la calidad del análisis.
 
-## 🛠️ Tecnologías y Librerías
+## Tecnologías y Librerías
 
 - Python 3.x
 - Pandas
