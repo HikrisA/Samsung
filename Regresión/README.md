@@ -27,7 +27,7 @@ Analizar la evolución histórica de las muertes por cáncer de pulmón en Méxi
 - Métricas de evaluación: MSE y comparación visual.
 - **Predicción para el año 2040**: `7,815` muertes.
 
-## 📈 Visualizaciones
+## Visualizaciones
 La notebook incluye múltiples visualizaciones para interpretar los resultados:
 
 Gráfico de dispersión de datos históricos.
