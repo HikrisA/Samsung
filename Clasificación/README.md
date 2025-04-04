@@ -2,6 +2,11 @@
 
 Este apartado del proyecto contiene varios modelos para la clasificación de cáncer de pulmón utilizando técnicas de **Machine Learning** y **Deep Learning**. Hay que considerar que para la creación de los conjuntos de datos, se deben tener las imágenes descargadas y en 3 carpetas separadas, siendo estas 3 carpetas cada clase. A continuación, se describen los archivos que conforman el apartado de clasificación.
 
+## Dataset utilizado
+
+Se usó el dataset público: [Lung and Colon Cancer Histopathological Images](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
+
+
 ## Notebooks
 
 ### Notebook_support_vector_classifier.jpynb
