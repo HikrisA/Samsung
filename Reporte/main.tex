@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{authblk}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{grffile}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{multirow}
+\captionsetup[lstlisting]{labelformat=empty}
+\captionsetup[table]{labelformat=empty}
+\captionsetup[figure]{labelformat=empty}
+\captionsetup[subfigure]{labelformat=empty}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.3cm, bottom=2.3cm]{geometry}
+\usepackage{csvsimple}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=apa]{biblatex}
+\usepackage[spanish]{babel}
+\usepackage{float}
+
+\addbibresource{referencias.bib} % Vincula el archivo .bib
+
+\title{Detección de cáncer de pulmón con un enfoque basado en aprendizaje automático y aprendizaje profundo}
+\author[1]{Abarca Cruz Zdenko Emilio}
+\author[2]{Aburto Lopéz Francisco Javier}
+\author[3]{Fuentes Herrera Carlos}
+\author[4]{Ramírez Rodríguez Enrique}
+\affil[1]{Ingeniería en Computación, Universidad Autónoma del Estado de México}
+\affil[2]{Matemáticas Aplicadas y Computación, Facultad de Estudios Superiores Acatlán}
+\affil[3]{Ingeniería en Mecatrónica, Unidad profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas IPN}
+\affil[4]{Matemáticas Aplicadas y Computación, Facultad de Estudios Superiores Acatlán}
+\addbibresource{referencias.bib} % Vincula el archivo .bib
+\begin{document}
+
+\includepdf{Portada_SIC.pdf}
+
+% z\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introducción}
+    \input{Carlos/Introduccion}
+\newpage
+
+% Problematica, justificación, general, objetivos especíwficos
+
+\section{Metodología}
+ 
+    \subsection{Metodología de clasificación}
+        \input{Francisco/Metodologia}
+
+\newpage
+  
+    \subsection{Metodología de predicción}    
+        \input{Zdenko/Metodologia}
+
+    \subsection{Metodología de agrupamiento}
+        \input{Enrique/Metodologia}
+
+\section{Resultados}
+
+    \subsection{Resultados de clasificación}
+        \input{Francisco/Resultados.tex}
+
+    \subsection{Resultados de predicción}
+        \input{Zdenko/Resultados}
+
+    \newpage
+
+    \subsection{Resultados de agrupamiento}
+        \input{Enrique/Resultados}
+
+\section{Conclusiones}
+
+        \input{Francisco/Conclusiones}
+
+        \input{Zdenko/Conclusion}
+
+        \input{Enrique/Conclusiones}
+    
+\newpage
+\addcontentsline{toc}{section}{Referencias} % Para que aparezcan en el índice
+\printbibliography
+
+\end{document}
+    
