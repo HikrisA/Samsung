@@ -6,12 +6,16 @@ Repositorio del proyecto final desarrollado por el **Equipo 2, Grupo 3** como pa
 ## Autores 
 Equipo 2, Grupo 3:
 - Emilio Zdenko Abarca Cruz
+  
 Licenciatura en Ingeniería en Computación, Universidad Autónoma del Estado de México
 - Francisco Javier Aburto López
+  
 Matemáticas Aplicadas y Computación, Facultad de Estudios Superiores Acatlán
 - Carlos Fuentes Herrera
+  
 Ingeniería en Mecatrónica, Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas (UPIITA-IPN)
 - Enrique Ramírez Rodríguez
+  
 Matemáticas Aplicadas y Computación, Facultad de Estudios Superiores Acatlán
 
 ---
