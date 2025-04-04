@@ -76,14 +76,3 @@ Se utilizaron algoritmos como:
 - **Segmentación:** 3 grupos definidos por edad, comorbilidades y ubicación geográfica  
 - **Visualización:** Se utilizaron mapas de calor y gráficos de dispersión para representar los grupos generados.
 
----
-
-## Instalación de Dependencias
-
-Para instalar las dependencias necesarias, ejecuta el siguiente comando:
-
-```bash
-pip install -r requirements.txt
-
-
-
