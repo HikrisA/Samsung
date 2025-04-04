@@ -1,12 +1,12 @@
-# 📈 Predicción de Muertes por Cáncer de Pulmón en México
+# Predicción de Muertes por Cáncer de Pulmón en México
 
 Este proyecto forma parte del programa **Samsung Innovation Campus 2024** y tiene como objetivo principal predecir el número de muertes por cáncer de pulmón en México utilizando modelos de aprendizaje automático y profundo. Se comparan dos enfoques: un modelo de Regresión Lineal y una Red Neuronal Recurrente (LSTM).
 
-## 🧠 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 Analizar la evolución histórica de las muertes por cáncer de pulmón en México desde 1990 hasta 2016, y predecir el número de muertes hasta el año 2040 mediante modelos supervisados. Se pretende generar un modelo confiable que pueda ser útil para instituciones de salud en la planificación de recursos y estrategias de prevención.
 
-## 📊 Modelos Implementados
+## Modelos Implementados
 
 ### 1. Regresión Lineal
 
@@ -38,7 +38,7 @@ Gráficos de pérdida de entrenamiento y predicción LSTM.
 
 Comparación visual entre ambos modelos.
 
-## ✅ Conclusiones
+## Conclusiones
 El modelo de Regresión Lineal proyecta un crecimiento constante en la mortalidad, con una predicción más alta que el modelo LSTM.
 
 El modelo LSTM captura dinámicas más complejas y sugiere una tendencia ligeramente más baja.
@@ -54,10 +54,10 @@ Ambos modelos ofrecen resultados plausibles y cercanos a cifras reales reportada
 - Scikit-learn
 - TensorFlow / Keras
 
-## 👥 Autores
+## Autor
 Emilio Zdenko Abarca Cruz – UAEMex
 
-## 📥 Instalación
+## Instalación
 
 Clona este repositorio y ejecuta los notebooks en un entorno con las dependencias correctas:
 
