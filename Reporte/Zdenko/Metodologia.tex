@@ -17,7 +17,7 @@ Para el análisis, se utilizó un conjunto de datos que contiene el registro anu
 Dicho dataset recopila la cantidad de muertes por distintos tipos de cáncer en múltiples países. Sin embargo, dado que este estudio se enfoca exclusivamente en México, se realizó una preprocesamiento de los datos para filtrar únicamente la información relevante al país. Esta versión depurada del dataset nos permite analizar la cantidad de muertes causadas por algún tipo de cáncer que ha habido en el país de 1990 al 2016. 
 
 
-\begin{table}[h!]
+\begin{table}[ht]
     \centering
     \begin{tabular}{|c|c|c|c|c|}
     \hline
@@ -47,7 +47,7 @@ Como punto de partida en el análisis exploratorio, se presenta un gráfico que 
 
 Dado que el enfoque de este estudio es el cáncer de pulmón, se llevó a cabo una segunda fase de preprocesamiento para extraer exclusivamente los registros relacionados con esta enfermedad, modificando el dataset y dejando únicamente los anos y las cantidades de muertes. 
 
-\begin{table}[h!]
+\begin{table}[ht]
     \centering
     \begin{tabular}{|c|c|}
     \hline
@@ -73,7 +73,7 @@ Estos hallazgos resultan fundamentales para comprender el comportamiento histór
 
 Para ilustrar la evolución de las muertes por cáncer de pulmón en México a lo largo del tiempo, se presenta el siguiente histograma:
 
-\begin{figure}[h] \centering \includegraphics[width=1.0\textwidth]{Zdenko/Imágenes/histograma.png} \caption{Evolución de muertes por cáncer de pulmón en México} \label{fig:histograma_pulmon} \end{figure}
+\begin{figure}[ht] \centering \includegraphics[width=1.0\textwidth]{Zdenko/Imágenes/histograma.png} \caption{Evolución de muertes por cáncer de pulmón en México} \label{fig:histograma_pulmon} \end{figure}
 
 Se realizó el cálculo de la media móvil, generando el siguiente gráfico. Este método es clave para suavizar fluctuaciones y resaltar tendencias subyacentes en los datos. Al eliminar el ruido, facilita una interpretación más clara y apoya el desarrollo de estrategias predictivas más precisas.
 
@@ -143,7 +143,7 @@ Este código realiza cálculos clave para analizar la evolución de las tasas de
 EL cual, la Tasa de Crecimiento Anual Compuesto es del \textbf{1.69}%.
 Tal Crecimiento Anual Compuesto se desglosa de la siguiente manera: 
 
-\begin{table}[h!]
+\begin{table}[ht]
 \centering
 \begin{tabular}{|c|c|c|}
 \hline
