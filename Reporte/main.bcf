@@ -3074,25 +3074,26 @@
     <bcf:citekey order="1" intorder="1">WHO2025</bcf:citekey>
     <bcf:citekey order="2" intorder="1">OMS2017diagnosis</bcf:citekey>
     <bcf:citekey order="3" intorder="1">MNT2025</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">ACS2025</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">WHO2025</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">mayoclinic_lung_cancer</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">WHO2025</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">cancer_american</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">anticancerlifestyle</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">cancerorg</bcf:citekey>
-    <bcf:citekey order="9" intorder="3">who</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">INCan2025</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">CNN1</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">CNN2</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">modelo_XGBClassifier</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">labmedica2025</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">roche2025</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">labmedica2025</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">500images</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">CNN1</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">CNN2</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">modelo_XGBClassifier</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">MNT2025</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">ACS2025</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">WHO2025</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">mayoclinic_lung_cancer</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">WHO2025</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">cancer_american</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">anticancerlifestyle</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">cancerorg</bcf:citekey>
+    <bcf:citekey order="10" intorder="3">who</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">INCan2025</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">CNN1</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">CNN2</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">modelo_XGBClassifier</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">labmedica2025</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">roche2025</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">labmedica2025</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">500images</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">CNN1</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">CNN2</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">modelo_XGBClassifier</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
