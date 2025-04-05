@@ -52,9 +52,9 @@ Se utilizaron algoritmos como:
 
 ### Clasificación
 
-- **Algoritmos utilizados:** Árbol de Decisión, Random Forest, SVM  
-- **Mejor desempeño:** Random Forest con **89%** de precisión  
-- **Métricas evaluadas:** Precision, Recall, F1-score
+- **Algoritmos utilizados:** SVC, Regresión Logística, XGBClassifier, CNN's.
+- **Mejor desempeño:** CNN con TL con VGG16 99%.
+- **Métricas evaluadas:** Precision, Recall, F1-score, confussion matrix.
 
 ---
 
