@@ -49,6 +49,8 @@ Reporte/
 - El archivo principal del documento es **main.tex**.
 - Todas las secciones del reporte están organizadas en carpetas según el autor correspondiente.
 - El archivo `referencias.bib` contiene la bibliografía usada en el documento.
+- El archivo `main.pdf` es el archivo compilado por *Virtual Studio Code* para comprobar la correcta adición del documento de reporte a github.
+- El archivo `Reporte_Equipo3_Grupo2_SIC_2024.pdf` alojado en la carpeta *output* fue el compilado en Overleaf y entregado de manera oficial a los organizadores del SIC 2024.
 
 ## Compilación
 
